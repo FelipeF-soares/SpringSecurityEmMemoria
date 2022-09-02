@@ -2,7 +2,7 @@
 ##### Criando funcionalidade simples de controle de acesso em aplicações Web com Spring Security, Spring Web e Thymeleaf. Essa aplicação utiliza como gerenciador de dependência Maven e o Java na versão 11.
 
 ## Criando as Views.
-### Antes de criar a a classe de configuração para o controle de acesso da aplicação iremos criar as views. Utilizei o framework Bootstrap para melhorar a qualidade visual da aplicação, mas mantendo a simplicidade. Os arquivos HTML devem estar no pasta templates dentro de resources.
+### Antes de criar a a classe de configuração para o controle de acesso da aplicação iremos criar as views. Utilizei o framework Bootstrap para melhorar a qualidade visual da aplicação, mas mantendo a simplicidade. Os arquivos HTML devem estar na pasta templates dentro de resources.
 
 ### A idéia é que quando um usuário acessar a página da `` home `` exista um link que direcione o usuário para a página `` hello ``, porém é necessário estar autenticado para prosseguir, caso não esteja a aplicação deverá redirecionar o usuário para tela de login. 
 
